@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Démo Ajax</title>
+
+</head>
+<body>
+
+<header>
+    <div class="test">
+        <i data-feather="menu" class="menuIcon"></i>
+    </div>
+    <h1><a href="index.html">RFC sheets</a></h1>
+</header>
+<div class="flexbox">
+    <div class="left-flexbox">
+        <nav>
+            <ul class="navigation-flebox">
+                <li><a href="index.html?page=1" data-page="1" >RFC 1149</a></li>
+                <li><a href="index.html?page=2" data-page="2" >RFC 2549</a></li>
+                <li><a href="index.html?page=3" data-page="3" >RFC 6214</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="right-flexbox">
+        <h1 id='titrePage'>IT standards</h1>
+        <section id="content" aria-live="polite" aria-atomic="true" aria-relevant="all">
+            <p>This site groups together several RFC sheets.</p>
+            <h2>What is a RFC sheet ?</h2>
+            <p>The requests for comments (RFC), are a numbered series of official documents describing the technical aspects and specifications of the Internet, or different computer hardware (routers, DHCP server).</p>
+            <h2>What can an RFC sheet looks like?</h2>
+            <p>RFCs contain information about RFCs such as Normative Notation, Security Considerations, or Detailed Specification.</p>
+            <p>They usually look like this :</p>
+            <img src="image/rfcSheetExample.png" alt="Extracted from an RFC sheet."/>
+        </section>
+    </div>
+</div>
+<footer>
+    <p>
+        This site has been developed by <a href="https://github.com/Antoine-Zombralis">Antoine ZOMBRALIS</a>
+    </p>
+    <script src="js/init.js"></script>
+</footer>
+
+</body>
+</html>
